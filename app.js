@@ -22,7 +22,7 @@ mongoose.connect( process.env.MONGODB_URI || "mongodb://localhost/learn-about-me
             console.log('db connected!');
         });
 //setup passport from different class        
-passportSetup();
+passportSetup(); 
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');  
